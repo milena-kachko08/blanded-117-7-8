@@ -1,0 +1,158 @@
+body {
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    background-color: #fff;
+    color: #22343d;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin:0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    font-family: inherit;
+}
+
+img {
+    display: block;
+    width:100%;
+    height: auto;
+}
+
+.container {
+    width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+}
+
+.price {
+    padding-top: 85px;
+    padding-bottom: 50px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.price-title {
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 34px;
+       
+}
+
+.price-text {
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: 500;
+}
+    
+
+.price-list {
+    display: flex;
+    gap: 72px;
+}
+
+.price-item {
+    text-align: center;
+    padding: 32px 0;
+    width: calc((100% - 144px) / 3);
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+.price-item-title {
+    font-family: "Poppins", serif;
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.66;
+    color: #22343d;
+}
+
+.price-item-text {
+    margin-bottom: 16px;
+    line-height: 2.5;
+}
+
+.price-item-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price-item-number {
+    margin-right: 7px;
+    font-weight: 700;
+    font-size: 76px;
+    line-height: 1.31;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #02897a;
+}
+
+.price-item-currency {
+    margin-bottom: 4px;
+    text-align: left;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.25;
+    letter-spacing: 0em;
+    color: #02897a;
+}
+
+.price-item-term {
+    line-height: 1.18;
+    letter-spacing: 0.01em;
+    color: #afafaf;
+}
+
+.price-inner-list {
+    margin-bottom: 30px;
+}
+
+.inner--item:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.inner--item_title {
+    font-weight: 500;
+    line-height: 1.375;
+    letter-spacing: 0.01em;
+    color: #22343d;
+}
+
+.price-btn {
+    padding: 11px 0;
+    min-width: 139px;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #02897a;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.join-container {
+    width: 968px;
+}
+
+.text {
+    width: 968px;
+    height: 345px;
+    background: #02897a;
+}
+
+.join-title {}
+
+.join-btn {}
